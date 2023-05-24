@@ -1,4 +1,6 @@
-# AI/DEV 서버 설정하기 기초과정
+# AI/DEV 서버 설정하기
+
+## Server 단(Ubuntu 22.04 LTS)
 
 - Locale 설정 
 
@@ -112,3 +114,7 @@ cp $HOME/.oh-my-tmux/.tmux.conf.local ~/.config/tmux/tmux.conf.local
 ```bash
 go install github.com/xxxserxxx/gotop/v4/cmd/gotop@latest
 ```
+
+## Client 단
+
+- [termscp](https://termscp.veeso.dev/#get-started) 
