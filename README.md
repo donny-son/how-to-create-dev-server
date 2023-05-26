@@ -11,6 +11,12 @@ sudo locale-gen ko_KR.UTF-8
 sudo dpkg-reconfigure locales
 ```
 
+- fuzzy finder
+
+```bash
+sudo apt install ripgrep
+```
+
 - zsh 및 configuration
 
 ```bash
@@ -30,6 +36,12 @@ curl https://pyenv.run | bash
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+- Gitui
+
+```bash
+cargo install gitui
 ```
 
 - nvm
