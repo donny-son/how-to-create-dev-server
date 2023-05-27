@@ -127,6 +127,12 @@ cp $HOME/.oh-my-tmux/.tmux.conf.local ~/.config/tmux/tmux.conf.local
 go install github.com/xxxserxxx/gotop/v4/cmd/gotop@latest
 ```
 
+## Conda
+
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-py310_23.3.1-0-Linux-x86_64.sh
+```
+
 ## Client 단
 
 - [termscp](https://termscp.veeso.dev/#get-started) 
