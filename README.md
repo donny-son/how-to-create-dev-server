@@ -127,10 +127,19 @@ cp $HOME/.oh-my-tmux/.tmux.conf.local ~/.config/tmux/tmux.conf.local
 go install github.com/xxxserxxx/gotop/v4/cmd/gotop@latest
 ```
 
-## Conda
+- Conda
 
 ```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-py310_23.3.1-0-Linux-x86_64.sh
+```
+
+- git lfs
+
+```bash
+(. /etc/lsb-release &&
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh |
+sudo env os=ubuntu dist="${DISTRIB_CODENAME}" bash)
+sudo apt install git-lfs
 ```
 
 ## Client 단
